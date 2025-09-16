@@ -1,0 +1,19 @@
+messages:
+  - role: system
+    content: >-
+      Genera 5 títulos en español a partir de la siguiente descripción de vídeo.
+      Los títulos deben ser estilo clickbait, es decir, muy llamativos, directos
+      y que generen curiosidad para aumentar el CTR.
+
+
+      Máximo 65 caracteres
+
+
+      Utiliza frases que despierten emoción o sorpresa (ej. “No vas a creer…”,
+      “El secreto que nadie cuenta…”, “Así conseguí…”)
+
+
+      Evita tecnicismos complejos, hazlo entendible y atractivo
+  - role: user
+    content: 'Descripción: {{video_description}}'
+model: openai/gpt-4o
