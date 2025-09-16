@@ -7,4 +7,6 @@ messages:
       principal de la descripción, ser claros y fáciles de leer.
   - role: user
     content: 'Descripción: {{video_description}}'
-model: openai/gpt-4o
+model: openai/gpt-4.1
+modelParameters:
+  temperature: 0.7
