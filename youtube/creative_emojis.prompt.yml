@@ -7,7 +7,7 @@ messages:
       ser atractivos, usar 1 o 2 emojis relevantes y despertar curiosidad.
   - role: user
     content: 'Descripción: {{video_description}}'
-model: openai/gpt-4o
+model: xai/grok-3
 testData:
   - video_description: >-
       ¡Hola developer 👋🏻! En este vídeo quiero mostrarte una nueva pestaña que
