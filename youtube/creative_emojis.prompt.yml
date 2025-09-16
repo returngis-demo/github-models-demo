@@ -8,3 +8,11 @@ messages:
   - role: user
     content: 'Descripción: {{video_description}}'
 model: openai/gpt-4o
+testData:
+  - video_description: >-
+      ¡Hola developer 👋🏻! En este vídeo quiero mostrarte una nueva pestaña que
+      puedes integrar como parte de nuestros repositorios en GitHub y es la
+      llamada Models. Gracias a la misma vas a poder probar prompts directamente
+      desde la interfaz del repo, vas a poder compararlos entre ellos y probar
+      con diferentes parámetros y modelos disponibles en el Marketplace.
+evaluators: []
